@@ -1,0 +1,26 @@
+course: 高级软件工程
+term: 2026秋
+team:
+  id: T07
+  project: A
+  members:
+    - student_id: 2026001
+      name: 张三
+      gitlab: zhangsan
+      role: 组长
+      modules: 采集引擎、时间窗判定
+    - student_id: 2026002
+      name: 李四
+      gitlab: lisi
+      role: 组员
+      modules: 贡献统计、看板
+    - student_id: 2026003
+      name: 王五
+      gitlab: wangwu
+      role: 组员
+      modules: 配置读取、报告导出
+    - student_id: 2026004
+      name: 赵六
+      gitlab: zhaoliu
+      role: 组员
+      modules: 留痕对接、文档

@@ -1,0 +1,9 @@
+checkpoints:
+  - id: CP-m1
+    milestone: m1
+    name: 需求人工评审
+    reviewer:
+    date:
+    result: 通过 / 打回
+    evidence:
+    note:
