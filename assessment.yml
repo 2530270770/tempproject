@@ -1,0 +1,25 @@
+milestones:
+  m1: {name: 需求基线, tag: m1-requirements, due_lecture: L19, required: NABC 与 SRS 与 RTM 初版}
+  m2: {name: 架构与最小内核, tag: m2-architecture, due_lecture: L20, required: 构件图 与 ADR 与 最小内核可运行}
+  m3: {name: 测试质量, tag: m3-testing, due_lecture: L25, required: 测试报告 与 标准样例问题全部报出}
+  m4: {name: 交付, tag: m4-release, due_lecture: L27, required: 用户手册 与 变更影响分析}
+weights:
+  team: 70             # 团队分（全组相同）
+  ta_individual: 22    # 助教评价（对个人）
+  peer: 8              # 组内互评（对个人，零和，n 人组总盘 8n）
+# 个人贡献红线：核验认定无实质贡献、无留痕、讲不清本人部分者，个人分清零且总评封顶
+# A 过程采集阈值
+process_thresholds:
+  min_merged_contributions: 5
+  active_weeks: 3
+  bigbang_window_hours: 24
+# B 追溯一致性阈值
+traceability_thresholds:
+  min_cases_per_fr: 1
+  critical_requires_boundary: true
+  critical_requires_happy: true
+# C AI 留痕阈值
+ai_thresholds:
+  checkpoint_required_per_milestone: true
+  ai_code_requires_review: true
+  log_hash_chain: true

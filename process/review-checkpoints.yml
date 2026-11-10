@@ -1,0 +1,17 @@
+checkpoints:
+  - id: CP-m1
+    milestone: m1
+    name: 立项与需求人工评审
+    reviewer: 陈磊
+    date: 2026-11-05
+    result: 通过
+    evidence: "GitLab MR !10"
+    note: "已核对14条FR、5条NFR、RTM初版、需求审查分析报告和AI人工接管记录"
+  - id: CP-m2
+    milestone: m2
+    name: 架构与最小内核人工评审
+    reviewer: 陈俊鹏、陈磊
+    date: 2026-11-08
+    result: 通过
+    evidence: "GitLab MR !13；分支 feature/m2-kernel；提交 02a6e7fe84059b715403a605113104063d15ff2c、65ee40cf1b5854b3620b977dab953383ac13a51a、8ffaa18e63e91711e8d765b6dde01e2c0f6b4d04、3e1885f9199f8a1f2e1411f568e9f875a19101df、9d38c0dc14f8afbf27f5adc0d6595964e6550131、d2957165b0b90fd52215eeebad13ba6c6bca1a31；good 6/6 FR 覆盖且0问题；bad 报出 FR-05 漏测、FR-02 缺边界用例、TC-22 孤儿用例；无关联TC的变更回归进入待回归；AI日志13条且哈希链校验通过"
+    note: "陈俊鹏复核规则引擎、三个状态机、权限和报告；陈磊复核系统边界、架构论证、解析器和CLI；双方确认变更FR无有效关联TC时必须进入待回归"

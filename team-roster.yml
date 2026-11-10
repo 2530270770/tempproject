@@ -1,0 +1,16 @@
+course: 高级软件工程
+term: 2026秋
+team:
+  id: T13
+  project: B
+  members:
+    - student_id: SA26225048
+      name: 陈俊鹏
+      gitlab: sa26225048
+      role: 组长
+      modules: 需求基线、Markdown解析、Git差异、CLI集成、用户手册
+    - student_id: SA26225049
+      name: 陈磊
+      gitlab: zredxny
+      role: 组员
+      modules: 规则引擎、状态机、报告、测试与质量、风险与AI留痕

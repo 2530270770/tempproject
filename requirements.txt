@@ -1,0 +1,3 @@
+# 仅 common/config.py 需要 PyYAML；其余脚手架为 Python 标准库。
+# git 命令依赖系统已安装 git（Windows 安装 Git for Windows）。
+PyYAML>=6.0
